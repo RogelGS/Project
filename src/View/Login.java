@@ -66,6 +66,7 @@ public class Login extends javax.swing.JFrame {
         jLabel4.setBounds(66, 253, 120, 13);
 
         txtUser.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        txtUser.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtUser.setMargin(new java.awt.Insets(20, 5, 2, 2));
         jPanel1.add(txtUser);
         txtUser.setBounds(60, 250, 200, 40);
@@ -76,8 +77,8 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(jLabel5);
         jLabel5.setBounds(66, 333, 120, 13);
 
-        txtPassword.setBackground(new java.awt.Color(242, 242, 242));
         txtPassword.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        txtPassword.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtPassword.setMargin(new java.awt.Insets(20, 5, 2, 2));
         jPanel1.add(txtPassword);
         txtPassword.setBounds(60, 330, 200, 40);

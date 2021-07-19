@@ -5,11 +5,15 @@
  */
 package View;
 
+import Components.Fonts;
+
 /**
  *
  * @author rogel
  */
-public class Login extends javax.swing.JFrame {
+public final class Login extends javax.swing.JFrame {
+    
+    Fonts font = new Fonts();
 
     /**
      * Creates new form Login
@@ -21,6 +25,7 @@ public class Login extends javax.swing.JFrame {
     
     public void preconfig() {
         this.setLocationRelativeTo(null);
+        btnLogin.setFont(font.Fonts(font.awesomeSolid, 0, 150));
     }
 
     /**
@@ -39,7 +44,7 @@ public class Login extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         txtPassword = new javax.swing.JTextField();
         jCheckBox1 = new javax.swing.JCheckBox();
-        jLabel6 = new javax.swing.JLabel();
+        btnLogin = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -88,11 +93,15 @@ public class Login extends javax.swing.JFrame {
         jCheckBox1.setForeground(new java.awt.Color(92, 87, 87));
         jCheckBox1.setText("Mostrar contraseña");
         jPanel1.add(jCheckBox1);
-        jCheckBox1.setBounds(60, 390, 200, 23);
+        jCheckBox1.setBounds(60, 380, 200, 23);
 
-        jLabel6.setText("");
-        jPanel1.add(jLabel6);
-        jLabel6.setBounds(110, 470, 12, 14);
+        btnLogin.setForeground(new java.awt.Color(227, 227, 227));
+        btnLogin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        btnLogin.setText("");
+        btnLogin.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel1.add(btnLogin);
+        btnLogin.setBounds(90, 470, 120, 90);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 320, 720);
@@ -110,6 +119,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(1250, 0, 30, 30);
 
+        jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/wallpaper.jpg"))); // NOI18N
         jLabel1.setMinimumSize(new java.awt.Dimension(1280, 720));
         getContentPane().add(jLabel1);
@@ -158,13 +168,13 @@ public class Login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel btnLogin;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtPassword;
     private javax.swing.JTextField txtUser;

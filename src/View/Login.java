@@ -40,11 +40,11 @@ public final class Login extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        txtUser = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
-        txtPassword = new javax.swing.JTextField();
         jCheckBox1 = new javax.swing.JCheckBox();
         btnLogin = new javax.swing.JLabel();
+        txtPassword = new javax.swing.JTextField();
+        txtUser = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -70,30 +70,18 @@ public final class Login extends javax.swing.JFrame {
         jPanel1.add(jLabel4);
         jLabel4.setBounds(66, 253, 120, 13);
 
-        txtUser.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        txtUser.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        txtUser.setMargin(new java.awt.Insets(20, 5, 2, 2));
-        jPanel1.add(txtUser);
-        txtUser.setBounds(60, 250, 200, 40);
-
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(92, 87, 87));
         jLabel5.setText("CONTRASEÑA");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(66, 333, 120, 13);
-
-        txtPassword.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        txtPassword.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        txtPassword.setMargin(new java.awt.Insets(20, 5, 2, 2));
-        jPanel1.add(txtPassword);
-        txtPassword.setBounds(60, 330, 200, 40);
+        jLabel5.setBounds(66, 323, 120, 13);
 
         jCheckBox1.setBackground(new java.awt.Color(255, 255, 255));
         jCheckBox1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jCheckBox1.setForeground(new java.awt.Color(92, 87, 87));
         jCheckBox1.setText("Mostrar contraseña");
         jPanel1.add(jCheckBox1);
-        jCheckBox1.setBounds(60, 380, 200, 23);
+        jCheckBox1.setBounds(60, 390, 200, 23);
 
         btnLogin.setForeground(new java.awt.Color(227, 227, 227));
         btnLogin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -102,6 +90,16 @@ public final class Login extends javax.swing.JFrame {
         btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel1.add(btnLogin);
         btnLogin.setBounds(90, 470, 120, 90);
+
+        txtPassword.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        txtPassword.setMargin(new java.awt.Insets(20, 5, 2, 2));
+        jPanel1.add(txtPassword);
+        txtPassword.setBounds(60, 320, 200, 40);
+
+        txtUser.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        txtUser.setMargin(new java.awt.Insets(20, 5, 2, 2));
+        jPanel1.add(txtUser);
+        txtUser.setBounds(60, 250, 200, 40);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 320, 720);

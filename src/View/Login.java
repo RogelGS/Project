@@ -68,13 +68,13 @@ public final class Login extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(92, 87, 87));
         jLabel4.setText("NOMBRE DE USUARIO");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(66, 253, 120, 13);
+        jLabel4.setBounds(60, 235, 120, 13);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(92, 87, 87));
         jLabel5.setText("CONTRASEÑA");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(66, 323, 120, 13);
+        jLabel5.setBounds(60, 305, 120, 13);
 
         jCheckBox1.setBackground(new java.awt.Color(255, 255, 255));
         jCheckBox1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -91,13 +91,13 @@ public final class Login extends javax.swing.JFrame {
         jPanel1.add(btnLogin);
         btnLogin.setBounds(90, 470, 120, 90);
 
-        txtPassword.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        txtPassword.setMargin(new java.awt.Insets(20, 5, 2, 2));
+        txtPassword.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        txtPassword.setMargin(new java.awt.Insets(2, 5, 2, 5));
         jPanel1.add(txtPassword);
         txtPassword.setBounds(60, 320, 200, 40);
 
-        txtUser.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        txtUser.setMargin(new java.awt.Insets(20, 5, 2, 2));
+        txtUser.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        txtUser.setMargin(new java.awt.Insets(2, 5, 2, 5));
         jPanel1.add(txtUser);
         txtUser.setBounds(60, 250, 200, 40);
 
